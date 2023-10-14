@@ -406,7 +406,7 @@ input[type="email"] {
 }
 /* about us */
     .history-section {
-        height: 50vh;
+        height: 60vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -502,4 +502,18 @@ input[type="email"] {
 }
 .top img , .bottom img{
    width: 26%;
+}
+
+
+
+
+
+
+
+
+
+/* media */
+@media (max-width: 768px) {
+
+
 }
