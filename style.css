@@ -74,12 +74,11 @@ section{
 }
 .main-section {
     display: flex;
+    justify-content: space-around;
     background: #00000000;
 }
 
 .main-section .left-side {
-    flex: 1;
-    margin-left: 6%;
     margin-top: 5%;
 }
 
@@ -131,7 +130,6 @@ section{
 
 .main-section .statistics {
     display: flex;
-    flex-direction: row;
     column-gap: 15%;
     margin-top: 7%;
 }
@@ -149,15 +147,6 @@ section{
     font-weight: bold;
     color: #333;
 }
-.main-section .right-side {
-    flex: 1;
-    text-align: center;/**********************************************************/
-}
-
-.main-section .right-side img {
-    max-width: 100%;
-}
-
 
 
 
@@ -502,18 +491,4 @@ input[type="email"] {
 }
 .top img , .bottom img{
    width: 26%;
-}
-
-
-
-
-
-
-
-
-
-/* media */
-@media (max-width: 768px) {
-
-
 }
